@@ -1,0 +1,37 @@
+.right-widget {
+  &__togglers {
+    margin-bottom: 1.5rem;
+    display: flex;
+  }
+}
+
+//Top-togglers
+.top-togglers {
+  &__button {
+    flex-basis: 33.3333%;
+    padding:1rem 0;
+  }
+}
+
+//Button
+.button {
+  font-family: OpenSans-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  &_nonactive {
+    background-color: #FFFFFF;
+  }
+
+  &_active {
+    background-color: #2196F3;
+    color:white;
+  }
+}

@@ -1,0 +1,25 @@
+.app {
+  max-width: 860px;
+  width:100%;
+  margin: 150px auto 0;
+  padding:0 15px;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    margin-top:25px;
+  }
+
+  &__left {
+    flex-basis:30%;
+  }
+
+  &__right {
+    margin-left:1.5rem;
+    flex-grow: 1;
+  }
+}
